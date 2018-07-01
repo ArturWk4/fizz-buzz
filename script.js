@@ -1,6 +1,6 @@
 function fizbuzz(variable) {
     let result = '';
-    if(variable % 3 === 0){
+    if(variable % 3 == 0){
         result = 'Fizz';
     }
     if(variable % 5 == 0) {
